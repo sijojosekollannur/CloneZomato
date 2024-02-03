@@ -1,0 +1,1818 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin:0;
+    width:100%;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.header{
+    position: relative;
+}
+.image-container{
+    position: relative;
+    width: 100%;
+    height: 570px;
+}
+.image-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header-body-section{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    color: white;
+}
+.nav{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    
+}
+.container ul{
+    align-items:center ;
+    padding-left: 655px;
+    padding-right: 0;
+}
+.container ul li{
+    padding: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    color: white;
+    padding-top: 3px;
+    font-size: 19px;
+    font-weight: 300;
+}
+.nav ul{
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+.nav ul li a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.9;
+}
+.zomato-logo{
+    width: 280px;
+}
+.container-header-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 570px;
+    flex-direction: column;
+}
+.header-body-content{
+    position: relative;
+    bottom: -49px;
+}
+.para{
+    font-family: Okra, Helvetica, sans-serif;
+    font-size: 38px;
+    opacity: 0.8;
+    font-weight: 50;
+}
+.span{
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 120px;
+    font-size: 38px;
+    opacity: 0.8;
+    font-weight: 50;
+}
+
+.section1{
+    width:100;
+    height:3600px;
+}
+.container1{
+    width:100%;
+    height:280px;
+}
+.head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    
+}
+.head h4 {
+    font-size: 35px;
+    padding-top: 0;
+    opacity: 0.8;
+    font-weight: lighter;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.head img{
+    padding: 5px;
+    padding-top: 0;
+    width:5%;
+}
+.head span{
+    font-size: 35px;
+    padding: 2px;
+    padding-top: 0;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.p{
+    width:100%;
+    height:150px;
+    font-size: 22px;
+    padding-top: 0;
+}
+.p p{
+    padding-left: 220px;
+    opacity: 0.6;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.p span{
+    padding-left: 270px;
+    font-family: Okra, Helvetica, sans-serif;
+
+}
+
+.container2{
+    width:100%;
+    height:2000px;
+    display: flex;
+}
+
+.col1{
+    width:35%;
+    height: 100%;
+}
+.col2{
+    width:30%;
+    height: 100%;
+}
+.col3{
+    width:35%;
+    height: 100%;
+}
+.input1{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight:100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input1:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input2{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+
+.input2:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input3{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input3:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input4{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+} 
+.input4:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+
+.input5{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input5:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+    
+
+.input6{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input6:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input7{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input7:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input8{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input8:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input9{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input9:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input10{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input10-:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input11{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input11:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input12{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input12:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input13{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input13:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input14{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input14:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input15{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input15:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input16{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input16:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input17{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input17:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input18{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input18:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input19{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input19:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input20{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input20:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input21{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input21:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input22{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input22:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input23{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input23:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input24{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input24{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input25{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input25:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input26{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input26:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input27{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+}
+.input27:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input28{
+    width:75%;
+    height:65px;
+    margin-left: 110px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+  
+    
+}
+.input28:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input29{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input29:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input30{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input30:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input31{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input31:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input32{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input32:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input33{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input33:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input34{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input34:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input35{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input35:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input36{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input36:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input37{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input37:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input38{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input38:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input39{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input39:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input40{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input40:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input41{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input41:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input42{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input42:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input43{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input43:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input44{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input44:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input45{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input45:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input46{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input46:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input47{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input47:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input48{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input48:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input49{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input49:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input50{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input50:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input51{
+    width: 90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input51:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input52{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input52:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input53{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input53:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input54{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input54:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input55{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input55:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input56{
+    width:90%;
+    height:65px;
+    margin-left: 18px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input56:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input58{
+    width:80%;
+    height:65px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input58:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input59{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input59:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input60{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input60:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input61{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input61:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input62{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input62:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input63{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input63:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input64{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input64:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input65{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input65:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input66{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input66:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input67{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input67:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+
+.input68{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input68:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input69{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input69:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input70{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input70:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input71{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input71:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input72{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input72:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input73{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input73:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input74{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input74:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input75{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input75:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input76{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input76:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input77{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input77:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input78{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input78:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input79{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input79:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input80{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input80:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input81{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input81:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input82{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input82:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input83{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input83:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input84{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input84:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.input85{
+    width:80%;
+    height:65px;
+    margin-top: 50px;
+    border-radius: 8px;
+    font-size: 23px;
+    font-weight: 100;
+    padding-left: 20px;
+    cursor: pointer;
+    border:2px solid rgb(232, 232, 232);
+    background-color:rgb(255, 255, 255);
+    
+}
+.input85:hover{
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232); 
+}
+.footer{
+    width:100%;
+    height:500px;
+    background:rgb(248, 248, 248);
+}
+.container3{
+    display: flex;
+    width:100%;
+    height:400px;
+}
+.part1{
+    width:25%;
+    height:400px;
+}
+.part1 img{
+    width:40%;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+.part1 h5{
+    margin-left: 130px;
+    padding-top: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.part1 ul{
+    margin-left: 90px;
+    list-style: none;
+    opacity: 0.8;
+    font-family: Okra, Helvetica, sans-serif;
+}
+.part1 ul li{
+    padding: 5px;
+    font-size: 15px;
+}
+.part2{
+    width:15%;
+    height:400px;
+}
+.part2 h5{
+    margin-top: 150px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.part2 ul{
+    list-style: none;
+    opacity: 0.8;
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 0;
+}
+.part2 ul li{
+    padding: 5px;
+    font-size: 15px;  
+}
+.part3{
+    width:20%;
+    height:400px;
+}
+.head1{
+    margin-top: 145px;
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.head2{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.part3 ul{
+    list-style: none;
+    opacity: 0.8;
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 0;  
+}
+.part3 ul li{
+    font-size: 15px;
+    padding: 5px;
+}
+.part4{
+    width:15%;
+    height:400px;
+}
+.part4 h5{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500; 
+    margin-top: 145px;
+}
+.part4 ul{
+    list-style: none;
+    opacity: 0.8;
+    font-family: Okra, Helvetica, sans-serif;
+    padding-left: 0; 
+}
+.part4 ul li{
+    font-size: 15px;
+    padding: 5px;
+}
+.part5{
+    width:25%;
+    height:400px;
+}
+.buttonpart{
+    width:100%;
+    height:130px;
+}
+.buttonpart button{
+    width:38%;
+    height:40px;
+    font-size: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+    opacity: 0.8;
+    margin-top: 50px;
+    border-radius: 6px;
+    border-width: 1px;
+
+}
+.buttonimage{
+    width:21%;
+}
+.downbutton{
+    width:20%;
+}
+.buttonglob{
+    width:15%;
+}
+.icons{
+    width:100%;
+}
+.icons h5{
+    font-family: Okra, Helvetica, sans-serif;
+    font-weight: 500;
+    padding-left: 80px;   
+}
+.image1{
+    width:23px;
+}
+.image2{
+    width:23px;
+}
+.image3{
+    width:23px;
+}
+.image4{
+    width:23px;
+}
+.image5{
+    width:23px;
+}
+.iconimages{
+    margin-left: 60px;
+}
+.logos{
+    width:100%;
+    height:100px;
+    margin-top: 25px;
+}
+.logoimage1{
+    width:50%;
+}
+.logoimage2{
+    width:50%;
+}
+.logoimages{
+    margin-left: 50px; 
+}
+.conclude{
+    width:100%;
+    height:100px;
+}
+.line{
+    margin-left: 130px;
+    margin-right: 130px;
+}
+.downpara{
+    margin-left: 130px;
+    margin-top: 25px;
+    font-size:14px;
+    opacity:0.7;
+    font-family: Okra, Helvetica, sans-serif;
+}
+
+
+
+
